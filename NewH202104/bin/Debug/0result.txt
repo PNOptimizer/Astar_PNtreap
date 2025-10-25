@@ -2,8 +2,8 @@
 Petri net=ChenFig5_44; h=7; Open size=0; h2=2;
 ep(for A^*_ep)=-1; ep2(for h dynamic weighting)=0
 The number of expanded markings:14520
-Search time：hours=0, minutes=0, seconds=25, milliseconds=259
-(Search time=25 seconds : 259 milliseconds)
+Search time：hours=0, minutes=0, seconds=17, milliseconds=342
+(Search time=17 seconds : 342 milliseconds)
 =============================================================
 **************** The obtained schedule： **************
 Note that M: p23(2) means there are two tokens in p23 at the current marking. R: [p4,3]:4,2 means there are 3 tokens in an activity place p4 and their remaining token time are 4, 2, and 0, respectively. Note that if token remaining time is 0, it will not be displayed. (Token remainig times of an activity place is stored in a non-increasing order)

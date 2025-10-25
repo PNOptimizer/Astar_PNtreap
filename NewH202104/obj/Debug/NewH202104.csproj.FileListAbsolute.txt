@@ -86,3 +86,10 @@ C:\Users\Lyt22\Desktop\Temp\TreapChanged\RCM_Scheduling_Treap\NewH202104\obj\Deb
 C:\Users\Lyt22\Desktop\Temp\TreapChanged\RCM_Scheduling_Treap\NewH202104\obj\Debug\NewH202104.csproj.CoreCompileInputs.cache
 C:\Users\Lyt22\Desktop\Temp\TreapChanged\RCM_Scheduling_Treap\NewH202104\obj\Debug\NewH202104.exe
 C:\Users\Lyt22\Desktop\Temp\TreapChanged\RCM_Scheduling_Treap\NewH202104\obj\Debug\NewH202104.pdb
+C:\Users\Lyt22\Desktop\Temp\毕业设计_研究生\Astar_PNtreap\NewH202104\bin\Debug\NewH202104.exe.config
+C:\Users\Lyt22\Desktop\Temp\毕业设计_研究生\Astar_PNtreap\NewH202104\bin\Debug\NewH202104.exe
+C:\Users\Lyt22\Desktop\Temp\毕业设计_研究生\Astar_PNtreap\NewH202104\bin\Debug\NewH202104.pdb
+C:\Users\Lyt22\Desktop\Temp\毕业设计_研究生\Astar_PNtreap\NewH202104\obj\Debug\NewH202104.csproj.AssemblyReference.cache
+C:\Users\Lyt22\Desktop\Temp\毕业设计_研究生\Astar_PNtreap\NewH202104\obj\Debug\NewH202104.csproj.CoreCompileInputs.cache
+C:\Users\Lyt22\Desktop\Temp\毕业设计_研究生\Astar_PNtreap\NewH202104\obj\Debug\NewH202104.exe
+C:\Users\Lyt22\Desktop\Temp\毕业设计_研究生\Astar_PNtreap\NewH202104\obj\Debug\NewH202104.pdb

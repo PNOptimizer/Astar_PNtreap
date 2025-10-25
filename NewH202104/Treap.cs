@@ -236,14 +236,14 @@ namespace NewH202104
                     }
                     fMap.InsertToF(node.aStarNodes.root.next);  //更新FMap
                 }
-                UpdateTreap(node, UP);//从node开始自下而上调整Treap
+                Update(node, UP);//从node开始自下而上调整Treap
             }
         }
 
         /*
          * direction控制调整方向，node表明开始节点
          * **/
-        private void UpdateTreap(TreapNode node, int direction)
+        private void Update(TreapNode node, int direction)
         {
             if (direction==UP)
             {
@@ -367,7 +367,7 @@ namespace NewH202104
             if (!node.aStarNodes.isEmpty())
             {
                 node.priority=node.getMinTotalCost();
-                UpdateTreap(node, DOWN);
+                Update(node, DOWN);
             }
             else
             {
@@ -454,7 +454,7 @@ namespace NewH202104
                         // 如果是根节点
                         root = rightmostNode;
                     }
-                    UpdateTreap(rightmostNode, DOWN);
+                    Update(rightmostNode, DOWN);
                 }
             }
         }
