@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lyt22\\Desktop\\Temp\\Treap\\RCM_Scheduling_Treap\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{485605BF-00D1-4367-BE74-3827B81332C7}|NewH202104\\NewH202104.csproj|c:\\users\\lyt22\\desktop\\temp\\treap\\rcm_scheduling_treap\\newh202104\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{485605BF-00D1-4367-BE74-3827B81332C7}|NewH202104\\NewH202104.csproj|solutionrelative:newh202104\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{485605BF-00D1-4367-BE74-3827B81332C7}|NewH202104\\NewH202104.csproj|C:\\Users\\Lyt22\\Desktop\\Temp\\Treap\\RCM_Scheduling_Treap\\newh202104\\astar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{485605BF-00D1-4367-BE74-3827B81332C7}|NewH202104\\NewH202104.csproj|solutionrelative:newh202104\\astar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{485605BF-00D1-4367-BE74-3827B81332C7}|NewH202104\\NewH202104.csproj|c:\\users\\lyt22\\desktop\\temp\\treap\\rcm_scheduling_treap\\newh202104\\treap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{485605BF-00D1-4367-BE74-3827B81332C7}|NewH202104\\NewH202104.csproj|solutionrelative:newh202104\\treap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Users\\Lyt22\\Desktop\\Temp\\Treap\\RCM_Scheduling_Treap\\NewH202104\\Main.cs",
+              "RelativeDocumentMoniker": "NewH202104\\Main.cs",
+              "ToolTip": "C:\\Users\\Lyt22\\Desktop\\Temp\\Treap\\RCM_Scheduling_Treap\\NewH202104\\Main.cs",
+              "RelativeToolTip": "NewH202104\\Main.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB8AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T02:10:07.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Treap.cs",
+              "DocumentMoniker": "C:\\Users\\Lyt22\\Desktop\\Temp\\Treap\\RCM_Scheduling_Treap\\NewH202104\\Treap.cs",
+              "RelativeDocumentMoniker": "NewH202104\\Treap.cs",
+              "ToolTip": "C:\\Users\\Lyt22\\Desktop\\Temp\\Treap\\RCM_Scheduling_Treap\\NewH202104\\Treap.cs",
+              "RelativeToolTip": "NewH202104\\Treap.cs",
+              "ViewState": "AQIAALgAAAAAAAAAAAApwMIAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T01:23:51.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AStar.cs",
+              "DocumentMoniker": "C:\\Users\\Lyt22\\Desktop\\Temp\\Treap\\RCM_Scheduling_Treap\\NewH202104\\AStar.cs",
+              "RelativeDocumentMoniker": "NewH202104\\AStar.cs",
+              "ToolTip": "C:\\Users\\Lyt22\\Desktop\\Temp\\Treap\\RCM_Scheduling_Treap\\NewH202104\\AStar.cs",
+              "RelativeToolTip": "NewH202104\\AStar.cs",
+              "ViewState": "AQIAAOwHAAAAAAAAAAAYwAgIAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T15:00:00.889Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
