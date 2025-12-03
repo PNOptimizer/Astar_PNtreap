@@ -96,11 +96,13 @@ namespace NewH202104
         int UP=0, DOWN=1;
         public TreapNode root;//树堆根节点
         public FMap fMap;//每个f值对应的最后出现的状态
+        decimal totalStates;
 
         public Treap()
         {
             root = null;
             fMap = new FMap();
+            totalStates = 0;
         }
 
         public bool IsEmpty()
@@ -115,9 +117,9 @@ namespace NewH202104
         }
 
 
-        public int CountTotalStates()
+        public decimal CountTotalStates()
         {
-            return CountTotalStatesInNode(root);
+            return totalStates;
         }
 
         //计算节点node（包含本身）所有下属树堆节点中包含的A*节点数量
@@ -168,6 +170,7 @@ namespace NewH202104
             if (IsEmpty())
             {
                 root = new TreapNode(S);
+                totalStates++;
                 fMap.InsertToF(root.aStarNodes.root.next);//程序无关行，更新firstMap
             }
             else
@@ -181,6 +184,7 @@ namespace NewH202104
                             return;
                         else
                         {
+                            totalStates--;
                             fMap.DeleteFromF(state);
                             //N' = N' \ {S'}
                             state.pre.next = state.next;
@@ -220,6 +224,7 @@ namespace NewH202104
                         }
                     }
                     node.priority = node.getMinTotalCost();
+                    totalStates++;
                     fMap.InsertToF(insertedState);//更新FMap
                 }
                 else
@@ -234,6 +239,7 @@ namespace NewH202104
                         node.right = new TreapNode(S, null, null, node);
                         node = node.right;
                     }
+                    totalStates++;
                     fMap.InsertToF(node.aStarNodes.root.next);  //更新FMap
                 }
                 Update(node, UP);//从node开始自下而上调整Treap
@@ -359,6 +365,7 @@ namespace NewH202104
             }
 
             //删除N中S
+            totalStates--;
             fMap.DeleteFromF(stateExist);  //更新fMap
             stateExist.pre.next = stateExist.next;
             if(stateExist.next!=null)

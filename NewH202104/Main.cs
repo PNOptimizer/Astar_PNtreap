@@ -26,10 +26,10 @@ namespace Huangbo.AStarPetri.Test
             Huangbo.AStarPetri.AStarNode startNode;
             //true：采用原方法
             //false：采用Treap方法
-            bool method = false;
+            bool method = true;
 
             //string fileName = "ChenFig6Extended_223";  //The prefix of your input Petri net files.         fileName should be "XXXFigx_111_init.txt" or "XXXFigx_111_matrix.txt".   
-            string fileName = "ChenFig5_44";  //The prefix of your input files. 
+            string fileName = "ChenFig5_22";  //The prefix of your input files. 
             //string fileName = "Chen2011Big_11112";  //The prefix of your input files. 
             //string fileName = "ChenFig6Extended_121";  //The prefix of your input files.
             //string fileName = "Xiong98_1111";  //The prefix of your input files.
